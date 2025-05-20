@@ -73,23 +73,35 @@ var privateMethods = []string{
 // These represent the minimum order sizes for the respective coins
 // Should be monitored through here: https://support.kraken.com/hc/en-us/articles/205893708-What-is-the-minimum-order-size-
 const (
-	MinimumREP  = 0.3
-	MinimumXBT  = 0.002
-	MinimumBCH  = 0.002
-	MinimumDASH = 0.03
-	MinimumDOGE = 3000.0
-	MinimumEOS  = 3.0
-	MinimumETH  = 0.02
+	MinimumREP  = 5.0
+	MinimumXBT  = 0.00005
+	MinimumBCH  = 0.01
+	MinimumDASH = 0.09
+	MinimumDOGE = 13.0
+	MinimumEOS  = 5.0
+	MinimumETH  = 0.002
 	MinimumETC  = 0.3
-	MinimumGNO  = 0.03
-	MinimumICN  = 2.0
-	MinimumLTC  = 0.1
-	MinimumMLN  = 0.1
-	MinimumXMR  = 0.1
-	MinimumXRP  = 30.0
-	MinimumXLM  = 300.0
-	MinimumZEC  = 0.02
+	MinimumGNO  = 0.017
+	MinimumLTC  = 0.05
+	MinimumMLN  = 0.3
+	MinimumXMR  = 0.03
+	MinimumXRP  = 2.0
+	MinimumXLM  = 20.0
+	MinimumZEC  = 0.2
 	MinimumUSDT = 5.0
+	MinimumDOT 	= 0.6
+	MinimumALGO = 10.0
+	MinimumSOL	= 0.02
+	MinimumMKR	= 0.0035
+	MinimumAAVE = 0.015
+	MinimumCRV	= 4.5
+	MinimumATOM = 0.5
+	MinimumPOL 	= 6.0
+	MinimumAVAX	= 0.1
+	MinimumADA 	= 4.4
+	MinimumLINK = 0.2
+	MinimumUNI 	= 0.3
+	MinimumSNX	= 1.5
 )
 
 // KrakenApi represents a Kraken API Client connection

@@ -15,6 +15,7 @@ This is a customised / updated version of [Beldur's Kraken Go API Client](https:
 [x] Changed import `io/ioutil` to `io` as ioutil is now deprecated
 [x] Added time-in-force param to the AddOrder function
 [x] Changed APIUserAgent from `https://github.com/beldur/kraken-go-api-client` to `https://github.com/chironjit/kraken-go-api-client`
+[x] Updated minimum order values for tokens
 
 ** 1Inch asset / asset pairs cannot be added due to limitation of consts not allowing items to start with a number
 
