@@ -9,13 +9,13 @@ This is a customised / updated version of [Beldur's Kraken Go API Client](https:
 
 ## Changelogs
 
-[x] Updated all the assets and asset pairs except for 1INCH
-[x] Updated AssetPairInfo type to add `wsname`, `cost_decimals`, `costmin`, `tick_size`, `status`, `long_position_limit` & `short_position_limit` fields
-[x] Updated TradeBalanceResponse type to add `uv` (UnexecutedValue)
-[x] Changed import `io/ioutil` to `io` as ioutil is now deprecated
-[x] Added time-in-force param to the AddOrder function
-[x] Changed APIUserAgent from `https://github.com/beldur/kraken-go-api-client` to `https://github.com/chironjit/kraken-go-api-client`
-[x] Updated minimum order values for tokens
+- [x] Updated all the assets and asset pairs except for 1INCH
+- [x] Updated AssetPairInfo type to add `wsname`, `cost_decimals`, `costmin`, `tick_size`, `status`, `long_position_limit` & `short_position_limit` fields
+- [x] Updated TradeBalanceResponse type to add `uv` (UnexecutedValue)
+- [x] Changed import `io/ioutil` to `io` as ioutil is now deprecated
+- [x] Added time-in-force param to the AddOrder function
+- [x] Changed APIUserAgent from `https://github.com/beldur/kraken-go-api-client` to `https://github.com/chironjit/kraken-go-api-client`
+- [x] Updated minimum order values for tokens
 
 ** 1Inch asset / asset pairs cannot be added due to limitation of consts not allowing items to start with a number
 
